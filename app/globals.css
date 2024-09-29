@@ -89,4 +89,9 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+}
+
+.cl-internal-d50gl1 ,.cl-internal-df7v37 ,.cl-internal-1dauvpw ,.dev-banner {
+  visibility: hidden;
 }
