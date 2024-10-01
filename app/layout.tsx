@@ -3,10 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import {
   ClerkProvider,
-  SignInButton,
-  SignedIn,
   SignedOut,
-  UserButton,
   RedirectToSignIn
 } from '@clerk/nextjs';
 import Nav from "@/components/Nav";

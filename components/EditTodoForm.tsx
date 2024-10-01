@@ -1,10 +1,9 @@
 "use client";
 
-import { createTodoAction, updateTodoAction } from "@/actions/todo.actions";
+import { updateTodoAction } from "@/actions/todo.actions";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -13,7 +12,7 @@ import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, For
 import { Input } from "@/components/ui/input";
 import { TodoFormValues, todoFormSchema } from "@/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Pen, Plus } from "lucide-react";
+import { Pen } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { Button } from "./ui/button";
 import { Checkbox } from "./ui/checkbox";
