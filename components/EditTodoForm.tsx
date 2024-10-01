@@ -80,7 +80,7 @@ const EditTodoForm = ({ todo }: { todo: ITodo }) => {
                   <FormItem>
                     <FormLabel>Short Description</FormLabel>
                     <FormControl>
-                      <Textarea placeholder="Tell us a little bit about yourself" className="resize-none" {...field} />
+                      <Textarea placeholder="Tell us a little bit about yourself" className="resize-none"  />
                     </FormControl>
                     <FormDescription>You can write a short description about your next todo.</FormDescription>
                     <FormMessage />
